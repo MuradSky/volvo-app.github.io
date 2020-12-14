@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Test Task">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/_assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/_assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/_assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/_assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/_assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/_assets/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-config" content="/_assets/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#0099da">
+
+    <link rel="stylesheet" href="./_assets/css/main.css">
+    <script src="./_assets/module/vendor/jquery.min.js"></script>
+    <title>index :: Test</title>
+</head>
+<body>
+    <div class="layout container">
+        <div class="head">
+            <h1 class="head__title">Модельный ряд</h1>
+        </div>
+        <div class="products">
+            <nav class="nav">
+                <button class="nav__button js-nav__button nav__button_active" >Внедорожники / кроссоверы</button>
+                <button class="nav__button js-nav__button" >Седаны</button>
+                <button class="nav__button js-nav__button" >Cross Country</button>
+            </nav>
+            <div class="tab js-tab faded owl-carousel tab_active">
+                <div class="tab__item js-tab__item" data-src="./_assets/img/content/XC90.png" data-name="XC90" >
+                    <div class="tab__pic">
+                        <img src="./_assets/img/tabs/xc90.png" alt="Car" class="tab__img">
+                        <img src="./_assets/img/tabs/xc90_hover.png" alt="Car" class="tab__img tab__img_hover">
+                    </div>
+                    <strong class="tab__model">XC90</strong>
+                </div>
+                <div class="tab__item js-tab__item tab__item_active" data-src="./_assets/img/content/XC60.png" data-name="XC60" >
+                    <div class="tab__pic">
+                        <img src="./_assets/img/tabs/xc60.png" alt="Car" class="tab__img">
+                        <img src="./_assets/img/tabs/xc60hover.png" alt="Car" class="tab__img tab__img_hover">
+                    </div>
+                    <strong class="tab__model">XC90</strong>
+                </div>
+                <div class="tab__item js-tab__item" data-src="./_assets/img/content/XC40.png" data-name="XC40" >
+                    <div class="tab__pic">
+                        <img src="./_assets/img/tabs/xc40.png" alt="Car" class="tab__img">
+                        <img src="./_assets/img/tabs/xc40hover.png" alt="Car" class="tab__img tab__img_hover">
+                    </div>
+                    <strong class="tab__model">XC90</strong>
+                </div>
+            </div>
+            <div class="tab js-tab faded owl-carousel">
+                <div class="tab__item js-tab__item" data-src="./_assets/img/content/S60.png" data-name="S60">
+                    <div class="tab__pic">
+                        <img src="./_assets/img/tabs/s60.png" alt="Car" class="tab__img">
+                        <img src="./_assets/img/tabs/s60hover.png" alt="Car" class="tab__img tab__img_hover">
+                    </div>
+                    <span class="tab__model">Новый S60</span>
+                </div>
+                <div class="tab__item js-tab__item" data-src="./_assets/img/content/S90.png" data-name="S90">
+                    <div class="tab__pic">
+                        <img src="./_assets/img/tabs/s90.png" alt="Car" class="tab__img">
+                        <img src="./_assets/img/tabs/s90hover.png" alt="Car" class="tab__img tab__img_hover">
+                    </div>
+                    <span class="tab__model">S90</span>
+                </div>
+            </div>
+            <div class="tab js-tab faded owl-carousel">
+                <div class="tab__item js-tab__item" data-src="./_assets/img/content/V90.png" data-name="V90">
+                    <div class="tab__pic">
+                        <img src="./_assets/img/tabs/v90cc.png" alt="Car" class="tab__img">
+                        <img src="./_assets/img/tabs/v90cchover.png" alt="Car" class="tab__img tab__img_hover">
+                    </div>
+                    <span class="tab__model">V90 cross country</span>
+                </div>
+                <div class="tab__item js-tab__item" data-src="./_assets/img/content/V60.png" data-name="V60">
+                    <div class="tab__pic">
+                        <img src="./_assets/img/tabs/v60cc.png" alt="Car" class="tab__img">
+                        <img src="./_assets/img/tabs/v60cchover.png" alt="Car" class="tab__img tab__img_hover">
+                    </div>
+                    <span class="tab__model">V60 cross country</span>
+                </div>
+            </div>
+        </div>
+        <div class="car">
+            <div class="big-car">
+                <div class="model-quality">
+                    <div class="model-quality__inner">
+                        <strong class="model-quality__numb">15 Автомобилей</strong>
+                        <span class="model-quality__text">по специальным ценам</span>
+                    </div>
+                </div>
+                <div class="big-car__pic">
+                    <img src="./_assets/img/content/XC90.png" alt="Big Car" class="big-car__img js-big-car">
+                </div>
+            </div>
+            <div class="price">
+                <h2 class="price__model js-price-model">XC60</h2>
+                <div class="product-price">
+                    <div class="product-price__item">
+                        <div class="product-price__content">
+                            <span class="product-price__text">Выгода до</span>
+                            <strong class="product-price__numb js-product-price__numb">250 000 &#8381;</strong>
+                        </div>
+                        <div class="product-price__content">
+                            <span class="product-price__text">Бонус</span>
+                            <strong class="product-price__numb">Trade-in</strong>
+                        </div>
+                        
+                    </div>
+                    <div class="product-price__item">
+                        <div class="product-price__content">
+                            <span class="product-price__text">Кредитная ставка</span>
+                            <strong class="product-price__numb">5,9&#37;<sup class="product-price__numb_sup">1</sup></strong>
+                        </div>
+                        <div class="product-price__content">
+                            <span class="product-price__text">Ежемесячный платеж</span>
+                            <strong class="product-price__numb">20 358 &#8381;<sup class="product-price__numb_sup">2</sup></strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="payment-option">
+                    <span class="payment-option__text js-payment-option__text">Кредит</span>
+                    <label class="payment-option__switch">
+                        <input type="checkbox" class="payment-option__input js-payment-option__switch" checked>
+                        <span class="payment-option__slider"></span>
+                    </label>
+                    <span class="payment-option__text payment-option__text_active js-payment-option__text">Лизинг</span>
+                </div>
+                <div class="offer">
+                    <button class="offer__button js-offer__button">
+                        Получить предложение
+                        <svg viewBox="0 0 6 9" class="arrow">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="./_assets/svg/sprite.svg#arrow"></use>
+                        </svg>
+                    </button>
+                    <a href="/" class="offer__link">Тест-драйв</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hidden js-hidden">
+        <div class="hidden__inner">
+            <div class="modal js-modal">
+                <div class="modal__view js-modal-view">
+                    <div class="modal__close">
+                        <button class="modal__close-btn js-modal-close"></button>
+                    </div>
+                    <strong class="modal__strong">Пoлучить предложение</strong>
+                    <p class="modal__text">Оставьте заявку и наши менеджеры свяжутся с Вами в ближайшее время</p>
+                    <form action="#" class="form js-form">
+                        <div class="form__box">
+                            <input type="tel" name="phone" class="form__input js-form-tel" placeholder="+7 (___) ___-__-__" >
+                        </div>
+                        <button class="form__button js-form-btn">
+                            Получить предложение
+                            <svg viewBox="0 0 6 9" class="arrow">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="./_assets/svg/sprite.svg#arrow"></use>
+                            </svg>
+                            <span class="loader js-loader">
+                                <span class="lds-dual-ring"></span>
+                            </span>
+                        </button>
+                        <div class="checkbox">
+                            <label class="checkbox__label">
+                                <input type="checkbox" class="checkbox__input">
+                                <span class="checkbox__checkmark"></span>
+                            </label>
+                            <p class="checkbox__text">Я даю согласие на <span class="checkbox__text_span">обработку персональных данных</span></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal__hidden js-modal-hidden">
+                    <strong class="modal__strong">Спасибо!</strong>
+                    <p class="modal__text-top">Ваша заявка успешно отправлена</p>
+                    <p class="modal__text modal__text_hidden">Наши менеджеры свяжутся с Вами в ближайшее время</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <link rel="stylesheet" href="./_assets/css/owl.carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="./_assets/css/owl.carousel/owl.theme.default.min.css">
+    
+    <script src="./_assets/module/owl.carousel.min.js"></script>
+    <script src="./_assets/module/jquery.maskedinput.js"></script>
+    <script src="./_assets/js/bundle.min.js"></script>
+</body>
+</html>
